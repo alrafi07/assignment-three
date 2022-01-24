@@ -1,4 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* common style */
 body{
     font-family: 'Roboto', sans-serif;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+.package-btn{
+    background-color: #F496D1;
+}
+/* client review styles */
+.about-say {
+    align-items: center;
+    justify-content: center;
+}
+.about-say-img img{
+    border-radius: 50%;
+    
+}
+.about-say-content{
+    margin-left: 20px;
+}
+/* frequently questions style */
+.questions{
+    margin: 40px;
+}
+/* footer styles */
+footer{
+    background-color: black;
+    color: orange;
+}
+.fbutton,.ftitle{
+    margin-left: 140px;
+}
+.apple-btn{
+    height: 80px;
+    width: 180px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+}
+.apple-btn i{
+    font-size: 30px;
+    color: steelblue;
+}
+.playstore-btn{
+    height: 80px;
+    width: 180px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.playstore-btn i{
+    font-size: 30px;
+    color: steelblue;
+}
+
